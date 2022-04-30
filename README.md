@@ -1,4 +1,4 @@
-# My Universal React Project
+# Simple app in React Native for Average speed
 
 <p>
   <!-- iOS -->
