@@ -2,9 +2,8 @@ import { StyleSheet } from "react-native"
 
 export default StyleSheet.create({
     container:{
-        flex: 1,
         padding: 4,
-        paddingTop: 16
+        paddingTop: 40
     },
     title:{
         textAlign:'center',
@@ -23,7 +22,8 @@ export default StyleSheet.create({
         textAlign: 'center',
         borderColor: '#310980',
         borderWidth: 2,
-        borderRadius: 10
+        borderRadius: 10,
+        
 
     }
 })
