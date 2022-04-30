@@ -1,15 +1,13 @@
-import { View, Text } from "react-native";
+import React from "react"
+import {View, Text} from "react-native"
+import {VelocidadeMedia} from "./src/components/VelocidadeMedia"
 
-export default function App() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal React with Expo</Text>
+const App = () => {
+  return(
+    <View>
+      <VelocidadeMedia titulo="Cálculo da Velocidade Média" />
     </View>
-  );
+  )
 }
+
+export default App
